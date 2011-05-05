@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS streams;
+
+CREATE TABLE streams (
+	  id INTEGER PRIMARY KEY AUTOINCREMENT,
+	  url VARCHAR(255) NOT NULL,
+	  type INT(1) NOT NULL,
+	  state MEDIUMBLOB, 
+	  filters MEDIUMBLOB, 
+	  en INT(1) NOT NULL 
+);
+

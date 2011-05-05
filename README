@@ -1,0 +1,15 @@
+INSTALL
+* cd src
+* sqlite3 streams.db < ../sql/streams.sql
+* firefox http://jabber.org/
+* vi config.py
+* ./watcher start
+
+DISCOVER
+whatcherproc.py has all you want to know...
+
+3TH PARTY LIBS
+* daemon.py
+* jabber.py
+* feedparser.org
+
